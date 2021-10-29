@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 # Usage:
 
-Assumes as input a CSV file (with a header) containing a local identifier, authority type ("PN" for personal name or "CB" for corporate body), and the name to be reconciled, in that order. Authority type is mandatory for constructing the VIAF API query correctly. Local identifier is not, but you'll have to change the positions of the other inputs accordingly in the script.
+Assumes as input a CSV file (with a header) containing a local identifier, authority type ("PN" for personal name or "CB" for corporate body), and the name to be reconciled, in that order. Authority type is mandatory for constructing the VIAF API query. Local identifier is not, but you'll have to change the positions of the other inputs accordingly in the script.
 
 search.py (names_to_be_reconciled).csv
 
